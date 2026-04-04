@@ -1,5 +1,7 @@
 # yolo11n-object-detection
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/WAFAEMEKKAOUI-spec/yolo11n-object-detection/blob/main/test.ipynb)
+
 ##  Project Overview
 
 This project implements a multi-class object detection system to identify different types of waste materials using the YOLO11n model from the Ultralytics framework.
@@ -114,3 +116,12 @@ https://github.com/ultralytics/ultralytics
 
 This project demonstrates a complete object detection pipeline, including dataset preparation, model training, evaluation, and result visualization using YOLO11n.
 
+
+
+##  API Key Required
+
+This project uses a Roboflow API key to access the dataset.
+
+**For my instructor:** Please contact me directly to receive the API key.
+
+>  The key in the code (`"my-api-key"`) is a placeholder. You will need the actual key to run the notebook successfully.
