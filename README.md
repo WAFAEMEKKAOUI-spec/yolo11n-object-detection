@@ -107,6 +107,8 @@ Example detections include:
 
 ##  How to Run
 
+This section explains how to reproduce the results of this project.
+
 1. Install dependencies:
 pip install ultralytics roboflow
 
