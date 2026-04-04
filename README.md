@@ -105,6 +105,20 @@ Example detections include:
 * Google Colab
 
 
+##  How to Run
+
+1. Install dependencies:
+pip install ultralytics roboflow
+
+2. Train the model:
+from ultralytics import YOLO
+model = YOLO("yolo11n.pt")
+model.train(data="data.yaml", epochs=40)
+
+3. Run prediction:
+model.predict(source="test/images", save=True)
+
+
 ##  Framework Reference
 
 This project is built using the Ultralytics YOLO framework:
