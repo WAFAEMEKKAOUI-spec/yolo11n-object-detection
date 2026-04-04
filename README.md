@@ -121,6 +121,16 @@ model.train(data="data.yaml", epochs=40)
 model.predict(source="test/images", save=True)
 
 
+## Sample Results
+
+![Result1](train_batch1.jpg)
+![Result2](train_batch13740.jpg)
+![Result3](train_batch13741.jpg)
+![Result4](BoxP.png)
+![Result5](BoxPR_curve.png)
+![Result6](BoxR_curve.png)
+
+
 ##  Framework Reference
 
 This project is built using the Ultralytics YOLO framework:
